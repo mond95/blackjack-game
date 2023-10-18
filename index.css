@@ -1,0 +1,43 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("https://media.istockphoto.com/id/1218355494/vector/poker-table-background-in-green-color.jpg?s=170667a&w=0&k=20&c=kPTTaQdI5VQT-uXn4bWD7yIcCuotlYZK60uWh0EF1Dg=");
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: goldenrod;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+button:hover {
+cursor: pointer;
+background-color: rgb(255, 240, 34);
+color: #1fc96b;
+}
+
+
+#error-message {
+    color: rgb(204, 22, 22);
+}
+
